@@ -2,7 +2,7 @@ package ufpa.br.picareta;
 
 public class Picareta extends Item{
 	protected int resistenciaAtual;
-	protected static int resistenciaMax = 100;
+	static int resistenciaMax = 100;
 	private String eficiencia;
 	private Data dataCriacao;
 	protected int preco = 100 * (resistenciaAtual/100);
@@ -39,6 +39,11 @@ public class Picareta extends Item{
 	{
 		resistenciaAtual = resistenciaMax;
 		System.out.println("Nova Resistencia atual: "+ resistenciaAtual);
+	}
+	
+	static void mostrarResistenciaMax()
+	{
+		System.out.println("Resisntencia maxima é: "+resistenciaMax);
 	}
 
 }

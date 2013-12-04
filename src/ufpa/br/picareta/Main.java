@@ -19,6 +19,8 @@ public class Main {
 		novo2.minerar("Diamante");
 		novo2.verificarResistencia();
 		novo.reparar();
+		System.out.println();
+		Picareta.mostrarResistenciaMax();
 	}
 
 }
