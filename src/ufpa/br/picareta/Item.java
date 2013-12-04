@@ -1,5 +1,5 @@
 package ufpa.br.picareta;
 
-public class Item {
+public abstract class Item {
 
 }
